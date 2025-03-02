@@ -1,0 +1,103 @@
+.container
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.leftbox
+{
+  width: 38%;
+  height: 100%;
+  background-color: #0e0e0e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 50px;
+  gap: 10px;
+}
+
+.leftbox .name
+{
+  color: #dac5a7;
+  font-size: 20px;
+}
+
+.leftbox h1
+{
+  font-size: 100px;
+}
+
+.centerbox
+{
+  width: 24%;
+  height: 100%;
+  background-color: #dac5a7;
+}
+
+.rightbox
+{
+  width: 38%;
+  height: 100%;
+  background-color: #0e0e0e;
+  color: white;
+}
+
+.container .leftbox button
+{
+  width: 200px;
+  height: 55px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  background-color: #dac5a7;
+  cursor: pointer;
+}
+
+.centerbox
+{
+  display: flex;
+  align-items: end;
+}
+
+.centerbox img
+{
+  width: 400px;
+  height: 550px;
+}
+
+.rightbox
+{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 30px;
+  flex-direction: column;
+  text-align: left;
+  padding-right: 60px;
+}
+
+.rightbox p
+{
+  width: 400px;
+  font-size: 20px;
+}
+
+.rightbox h2 p
+{
+  display: flex;
+  color: #dac5a7;
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.rightbox p:hover
+{
+  gap: 30px;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
