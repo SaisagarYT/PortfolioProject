@@ -3,6 +3,7 @@ import './Layouts/Homepage.jsx'
 import Homepage from './Layouts/Homepage.jsx'
 import Navbar from './Layouts/Navbar.jsx'
 import Whoiam from './Layouts/Whoiam.jsx'
+import WhatIDo from './Layouts/WhatIDo.jsx'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Homepage/>
       <Whoiam/>
+      <WhatIDo/>
     </main>
   )
 }

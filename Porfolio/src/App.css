@@ -141,14 +141,14 @@ li p
 {
   width: 100%;
   height: 100%;
-  background-color: green;
+  background-color: #dac5a7;
 }
 
 .container2 ul
 {
   width: 100%;
   height: 100%;
-  background-color: green;
+  animation: banner 7s linear infinite;
 }
 
 .container2 ul li
@@ -160,7 +160,6 @@ li p
   font-size: 30px;
   font-weight: bold;
   -webkit-text-stroke: 1px rgb(121, 75, 246);
-  animation: banner 1s linear infinite;
   white-space: nowrap;
 }
 
@@ -173,4 +172,154 @@ li p
   }
 }
 
+.container3
+{
+  height: 100vh;
+  width: 100vw;
+  background-color:#0e0e0e;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  /* justify-content: space-between; */
+}
 
+
+
+.center3box
+{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+}
+
+.center3box h1
+{
+  font-size: 50px;
+}
+
+.center3box .line1
+{
+  height: 50px;
+  width: 3px;
+  background-color: #dac5a7;
+}
+
+.container3 h3
+{
+  color: #dac5a7;
+  margin-top: 80px;
+}
+
+.container3right
+{
+  width: 50%;
+}
+
+.container3left 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.section
+{
+  width: 100%;
+  height: 100%;
+}
+.container3right
+{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.detailBox
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container3left .box
+{
+  box-shadow: 0px 0px 20px 6px rgba(255, 255, 255, 0.742);
+}
+
+.container3 .section 
+{
+  display: flex;
+}
+
+.section .container3left 
+{
+  width: 48%;
+}
+
+.container3right p
+{
+  color: #dac5a7;
+}
+
+.tabs
+{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,200px);
+  grid-template-rows: repeat(2,80px);
+  gap: 30px;
+}
+
+.tab p
+{
+  color: white;
+}
+
+.tab
+{
+  width: 200px;
+  height: 80px;
+  background-color:rgb(32, 32, 32);
+  padding: 0px 15px;
+  border-left: 5px solid #dac5a7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ring
+{
+  width: 50px;
+  height: 50px;
+  background-color: #dac5a7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 160px;
+  z-index: 1;
+}
+
+.inring
+{
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.container4
+{
+  width: 100vw;
+  height: 100vh;
+}
