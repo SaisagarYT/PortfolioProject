@@ -322,4 +322,81 @@ li p
 {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  align-items: center;
 }
+
+.topbox4
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20px;
+}
+
+.topbox4 h1
+{
+  font-size: 50px;
+}
+
+
+.line2
+{
+  width: 3px;
+  height: 30px;
+  background-color: #dac5a7;
+}
+
+.bottombox4
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btbox
+{
+  height: 400px;
+  background-color: #22211e;
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid #635a4e;
+  padding: 15px 35px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btbox h1
+{
+  font-size: 40px;
+}
+
+.btbox p
+{
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.btbox .line3
+{
+  width: 30px;
+  height: 3px;
+  background-color: #dac5a7;
+}
+
+.skillboxcontainer
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
